@@ -21,17 +21,21 @@ Product.init(
       allowNull: false,
     },
     price: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.DECIMAL(10, 2),
       allowNull: false,
       // checks for any numbers
       // Sequelize Validations & Constraints
-      isDecimal: true,
+      validate: {
+        isDecimal: true,
+      },
     },
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
       // will only allow numbers
-      isNumeric: true,
+      validate: {
+        isNumeric: true,
+      },
       //By default, Sequelize assumes that the default value of a column is NULL.
       // This behavior can be changed by passing a specific defaultValue to the column definition:
       defaultValue: 10,
