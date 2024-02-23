@@ -1,4 +1,6 @@
+// Import the Sequelize module
 const Sequelize = require("sequelize");
+// Import the dotenv module to load environment variables
 require("dotenv").config();
 
 const sequelize = process.env.JAWSDB_URL
