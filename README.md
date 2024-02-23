@@ -22,9 +22,10 @@ THEN I am able to successfully create, update, and delete data in my database
 
 
 ## Usage
+![alt text](./assets/images/demo.gif)
 
 For more information - Please visit the following video on how the application works ➡
-[E-commerce Back End](https://www.loom.com)
+[E-commerce Back End](https://www.loom.com/share/4e1a6e9f209e47fba271935c0bc1b403?sid=c8a8b793-72d1-43e7-aadd-a733bdcc79f5)
 
 This application is running under mysql as a local host, you can modify the .env file with your own user/password to start the application.
 
